@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You — ExecutorConnect</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy: #0f2240; --navy-mid: #1a3660; --gold: #FC690B; --gold-light: #fd8033;
+    --cream: #faf7f2; --text: #1a1a1a; --text-muted: #5a5a5a; --white: #ffffff;
+    --border: rgba(252,105,11,0.25);
+  }
+  body { font-family: 'DM Sans', sans-serif; background: var(--cream); color: var(--text); line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; }
+  nav { display: flex; align-items: center; justify-content: space-between; padding: 1.25rem 3rem; background: var(--white); border-bottom: 1px solid var(--border); }
+  .logo { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 600; color: var(--navy); letter-spacing: -0.01em; text-decoration: none; display: block; }
+  .logo span { color: var(--gold); }
+  .main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 4rem 2rem; }
+  .card { background: var(--white); border-radius: 8px; border: 1px solid var(--border); padding: 4rem 3.5rem; max-width: 580px; width: 100%; text-align: center; }
+  .icon { width: 64px; height: 64px; background: rgba(252,105,11,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 2rem; }
+  .icon svg { width: 32px; height: 32px; }
+  h1 { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 600; color: var(--navy); margin-bottom: 1rem; letter-spacing: -0.02em; line-height: 1.25; }
+  p { font-size: 1rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 1rem; }
+  p:last-of-type { margin-bottom: 2rem; }
+  .btn { display: inline-block; background: var(--navy); color: var(--white); padding: 0.85rem 2rem; border-radius: 4px; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: background 0.2s; }
+  .btn:hover { background: var(--navy-mid); }
+  footer { background: var(--navy); border-top: 1px solid rgba(255,255,255,0.08); padding: 1.5rem 3rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+  footer .logo { color: rgba(255,255,255,0.5); font-size: 1rem; }
+  footer .logo span { color: rgba(252,105,11,0.6); }
+  footer p { font-size: 0.8rem; color: rgba(255,255,255,0.3); margin: 0; }
+  @media (max-width: 600px) {
+    nav { padding: 1rem 1.25rem; }
+    .card { padding: 2.5rem 1.5rem; }
+    footer { padding: 1.5rem 1.25rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="logo">Executor<span>Connect</span></a>
+</nav>
+
+<div class="main">
+  <div class="card">
+    <div class="icon">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 6L9 17L4 12" stroke="#FC690B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <h1>Thank you for your interest in ExecutorConnect.</h1>
+    <p>We'll be in touch within 2 business days to personally set up your firm's obituary searches.</p>
+    <p>In the meantime, if you have any questions you can reach us at <a href="mailto:hello@executorconnect.com" style="color: var(--gold); text-decoration: none;">hello@executorconnect.com</a>.</p>
+    <a href="/" class="btn">Back to ExecutorConnect</a>
+  </div>
+</div>
+
+<footer>
+  <div class="logo">Executor<span>Connect</span></div>
+  <p>© 2026 ExecutorConnect, LLC.</p>
+</footer>
+
+</body>
+</html>
